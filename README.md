@@ -21,7 +21,7 @@ This project provides functions to:
 from tokenizer import convert_chars_to_token, decode_token
 
 # Encode text to tokens
-sample_text = "Hello, World!"
+sample_text = "Hello, chai and code!"
 encoded_tokens = convert_chars_to_token(sample_text)
 print(f"Encoded: {encoded_tokens}")
 
@@ -31,4 +31,5 @@ print(f"Decoded: {decoded_text}")
 ```
 
 ### Output
-
+Encoded text 'Hello, chai and code!' to indices: [72, 101, 108, 108, 111, 44, 32, 99, 104, 97, 105, 32, 97, 110, 100, 32, 99, 111, 100, 101, 33]
+Decoded indices back to text: 'Hello, chai and code!'
